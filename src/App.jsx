@@ -46,12 +46,14 @@ import ButtonShatterOnClick from "./assets/components/ButtonTransformations/Butt
 import ButtonMorphOnClick from "./assets/components/ButtonTransformations/ButtonMorphOnClick";
 import ButtonGlassmorphism from "./assets/components/ButtonTransformations/ButtonGlassmorphism";
 import ButtonClaymorphism from "./assets/components/ButtonTransformations/ButtonClaymorphism";
+import Footer from "./assets/components/Footer";
+import Contact from "./assets/components/Contact";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className=" md:px-24 md:py-8 px-2 py-2">
+      <div className=" md:px-24 md:py-6 px-2 py-2">
         <Home />
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-16 place-items-center">
           <ButtonSpinner />
@@ -100,6 +102,10 @@ function App() {
           <ButtonMorphOnClick />
           <ButtonGlassmorphism />
           <ButtonClaymorphism />
+        </div>
+        <div>
+          <Contact />
+          <Footer />
         </div>
       </div>
     </>
