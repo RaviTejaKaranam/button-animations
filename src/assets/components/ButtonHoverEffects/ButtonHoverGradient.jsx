@@ -11,7 +11,14 @@ const ButtonHoverGradient = () => {
           ease: "easeInOut",
         },
       }}
-      whileTap={{ scale: 0.95 }}
+      whileTap={{
+        scale: 0.95,
+        background: "linear-gradient(90deg, #219EBC, #8ECAE6, #219EBC)",
+        transition: {
+          duration: 0.8,
+          ease: "easeInOut",
+        },
+      }}
     >
       <i className="fa-solid fa-palette mr-2" />
       <span>Color Flow</span>

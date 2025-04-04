@@ -19,6 +19,8 @@ const ButtonSkewAnimation = () => {
       }}
       whileTap={{
         scale: 0.95, // Slight shrink on click
+        skewX: 10, // Skew button on X-axis (horizontal)
+        skewY: 5, // Skew button on Y-axis (vertical)
         transition: { type: "spring", stiffness: 300, damping: 10 },
       }}
     >

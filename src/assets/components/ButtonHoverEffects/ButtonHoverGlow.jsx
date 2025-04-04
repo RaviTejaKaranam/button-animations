@@ -10,7 +10,13 @@ const ButtonHoverGlow = () => {
         color: "#ffffff",
         transition: { duration: 0.3, ease: "easeInOut" },
       }}
-      whileTap={{ scale: 0.95 }}
+      whileTap={{
+        scale: 0.95,
+        backgroundColor: "#219EBC",
+        boxShadow: "0px 0px 12px #219EBC",
+        color: "#ffffff",
+        transition: { duration: 0.3, ease: "easeInOut" },
+      }}
     >
       <i className="fa-solid fa-wand-magic-sparkles mr-2" />
       <span>Glow Up</span>

@@ -9,7 +9,13 @@ const ButtonHoverLift = () => {
         backgroundColor: "#219EBC",
         transition: { duration: 0.2 },
       }}
-      whileTap={{ scale: 0.95 }}
+      whileTap={{
+        scale: 0.95,
+        y: -4,
+        boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)",
+        backgroundColor: "#219EBC",
+        transition: { duration: 0.2 },
+      }}
     >
       <i className="fa-solid fa-arrow-up-right-from-square mr-2" />
       <span>Hover Me</span>
