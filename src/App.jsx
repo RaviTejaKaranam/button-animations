@@ -17,7 +17,7 @@ import ButtonError from "./assets/components/statesButtons/ButtonError";
 import ButtonDisabled from "./assets/components/statesButtons/ButtonDisabled";
 import ButtonToggle from "./assets/components/statesButtons/ButtonToggle";
 import ButtonConfettiSuccess from "./assets/components/statesButtons/ButtonConfettiSuccess";
-import ButtonFireworks from "./assets/components/statesButtons/ButtonFireWorks";
+import ButtonFireworks from "./assets/components/statesButtons/ButtonFireworks";
 import ButtonCollapseError from "./assets/components/statesButtons/ButtonCollapseError";
 import ButtonBreakInHalf from "./assets/components/statesButtons/ButtonBreakInHalf";
 import ButtonHoverLift from "./assets/components/ButtonHoverEffects/ButtonHoverLift";
@@ -42,7 +42,6 @@ import ButtonHoverBackgroundChange from "./assets/components/ButtonHoverEffects/
 import ButtonHoverBackgroundChangeLeft from "./assets/components/ButtonHoverEffects/ButtonHoverBackgroundChangeLeft";
 import ButtonRotatingOnClick from "./assets/components/ButtonTransformations/ButtonRotatingOnClick";
 import ButtonClickToExpand from "./assets/components/ButtonTransformations/ButtonClickToExpand";
-import ButtonNeonPulse from "./assets/components/ButtonTransformations/ButtonShatterOnClick";
 import ButtonShatterOnClick from "./assets/components/ButtonTransformations/ButtonShatterOnClick";
 import ButtonMorphOnClick from "./assets/components/ButtonTransformations/ButtonMorphOnClick";
 import ButtonGlassmorphism from "./assets/components/ButtonTransformations/ButtonGlassmorphism";
